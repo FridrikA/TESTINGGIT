@@ -10,6 +10,7 @@ namespace _5_DataTypes_1
     {
         static void Main(string[] args)
         {
+            string Test;
         }
     }
 }
