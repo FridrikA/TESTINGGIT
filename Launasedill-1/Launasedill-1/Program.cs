@@ -27,13 +27,14 @@ namespace Launasedill_1
             decimal Salary = 0m, SalaryAfterTax = 0m;
             decimal Personal = 51920m;
             decimal SalaryAfterPens = 0m;
-
+            decimal Extra = 0m, ExtraPer = 0.02m;
             
             Console.Write("Stimplaðu inn laun, engar kommur plís: ");
             Salary = Convert.ToDecimal(Console.ReadLine());
 
             Pens = Salary * PensPer;
-            SalaryAfterPens = Salary - Pens;
+            Extra = Salary * ExtraPer;
+            SalaryAfterPens = Salary - Pens - Extra;
 
 
 
